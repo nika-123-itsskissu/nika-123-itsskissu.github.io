@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Каталог</title>
+<link rel="stylesheet" href="../css/main.css">
+<style>
+body {
+  background: linear-gradient(90deg, #c67c95,#e0c2ce,#e5c7da);
+}
+.nav {
+position: relative;
+left: 0;
+right: 0;
+height: 50px;
+z-index: 999;
+top: 20px;
+
+}
+.nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: right;
+}
+.nav li {
+display: inline-block;
+}
+.nav a {
+display: block;
+font-family: 'Lato', sans-serif;
+font-size: 1.1em;
+text-transform: uppercase;
+padding: 0.5em 1em;
+color: #444;
+text-decoration: none;
+-webkit-transition: 0.9s;
+-moz-transition: 0.9s;
+-o-transition: 0.9s;
+transition: 0.9s;
+}
+.nav li.active a {
+color: #444;
+}
+.nav a:hover {
+color: #fff;
+background: #d0a5a5;
+}
+* {
+padding: 0;
+margin: 0;
+}
+.card, .card__2, .card__3, .card__4, .card__5, .card__6, .card__7, .card__8, .card__9, .card__10, .card__11, .card__12, .card__13, .card__14, .card__15, .card__16, .card__17, .card__18{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 200px;
+margin: 10px;
+text-align: center;
+font-family: sans-serif;
+display: inline-block;
+color: #575151;
+}
+
+img {
+width: 100%;
+}
+p {
+padding: 4px;
+font-size: 14px;
+color: #757575;
+}
+.card button, .card__2 button, .card__3 button, .card__4 button, .card__5 button, .card__6 button, .card__7 button, .card__8 button, .card__9 button, .card__10 button, .card__11 button, .card__12 button, .card__13 button, .card__14 button, .card__15 button, .card__16 button, .card__17 button, .card__18 button {
+border: none;
+outline: 0;
+padding: 10px;
+color: #fff;
+background-color: #000000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+.container {
+width: 100%;
+padding-top: 60px;
+overflow-y: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+</style>
+</head>
+<body>
+<div class="nav">
+<ul>
+<li><a href="http://127.0.0.1:8000/sitehome_1/">Главная</a></li>
+<li class="active"><a href="http://127.0.0.1:8000/about_us/">О нас</a></li>
+<li><a href="http://127.0.0.1:8000/stocks/">Акции</a></li>
+<li><a href="http://127.0.0.1:8000/lk/">личный кабинет</a></li>
+</ul>
+</div>
+<div class="clear"></div>
+<div class="container">
+    <div class="card">
+        <img src="https://img.ostin.com/upload/mdm/media_content/resize/7e6/332_460_3ae1/143743120299.jpg" alt="Лонгслив">
+        <h3>Лонгслив</h3>
+        <p class="price">3 000 руб.</p>
+        <p>Лонгслив с эффектом стирки и фотопринтом.</p>
+        <button>В корзину</button>
+      </div>
+      <div class="card__2">
+        <img src="https://img.ostin.com/upload/mdm/media_content/resize/a6a/686_950_4278/144875360299.jpg" alt="Джемпер">
+        <h3>Джемпер</h3>
+        <p class="price">5 000 руб.</p>
+        <p>Джемпер с эффектом деграде и бахромой.</p>
+        <button>В корзину</button>
+      </div>
+      <div class="card__3">
+        <img src="https://img.ostin.com/upload/mdm/media_content/resize/75c/332_460_b7f1/141297180299.jpg" alt="Джинсы">
+        <h3>Джинсы</h3>
+        <p class="price">4 670 руб.</p>
+        <p>Расклёшенные джинсы со средней посадкой.</p>
+        <button>В корзину</button>
+      </div>
+      <div class="card__4">
+        <img src="https://img.ostin.com/upload/mdm/media_content/resize/1f7/332_460_5007/144265390299.jpg" alt="Джинсы">
+        <h3>Джинсы</h3>
+        <p class="price">4 396 руб.</p>
+        <p>Свободные прямые джинсы средней посадки.</p>
+        <button>В корзину</button>
+      </div>
+      <div class="card__5">
+        <img src="https://img.ostin.com/upload/mdm/media_content/resize/f99/686_950_2292/127431230299.jpg" alt="Платье">
+        <h3>Платье</h3>
+        <p class="price">3 900 руб.</p>
+        <p>Трикотажное платье с ремнём.</p>
+        <button>В корзину</button>
+      </div>
+      <div class="card__6">
+        <img src="https://img.ostin.com/upload/mdm/media_content/resize/2e1/686_950_1e1a/143011070299.jpg" alt="Юбка">
+        <h3>Юбка</h3>
+        <p class="price">4 200 руб.</p>
+        <p>Прямая юбка миди с пуговицами.</p>
+        <button>В корзину</button>
+      </div>
+      <div class="card__7">
+        <img src="https://img.ostin.com/upload/mdm/media_content/resize/610/686_950_2dea/143137880299.jpg" alt="Костюм-жакет">
+        <h3>Костюм-жакет</h3>
+        <p class="price">7 000 руб.</p>
+        <p>Двубортный жакет цвета глубокий черный.</p>
+        <button>В корзину</button>
+      </div>
+      <div class="card__8">
+        <img src="https://img.ostin.com/upload/mdm/media_content/resize/428/332_460_2bcd/125371900299.jpg" alt="Кардиган">
+        <h3>Кардиган</h3>
+        <p class="price">2 000 руб.</p>
+        <p>Кардиган на пуговицах  черно-белый.</p>
+        <button>В корзину</button>
+      </div>
+      <div class="card__9">
+        <img src="https://img.ostin.com/upload/mdm/media_content/resize/69b/686_950_44c4/123630290299.jpg" alt="Сумка">
+        <h3>Сумка</h3>
+        <p class="price">5 000 руб.</p>
+        <p>Сумка-полумесяц из натуральной кожи.</p>
+        <button>В корзину</button>
+      </div>
+      <div class="card__10">
+        <img src="https://img.ostin.com/upload/mdm/media_content/resize/4cf/686_950_26fe/134715440299.jpg" alt="Шарф">
+        <h3>Шарф</h3>
+        <p class="price">800 руб.</p>
+        <p>Шарф с бахромой с добавлением шерсти.</p>
+        <button>В корзину</button>
+      </div>
+      <div class="card__11">
+        <img src="https://img.ostin.com/upload/mdm/media_content/resize/708/686_950_02d3/140713650299.jpg" alt="Лонгслив">
+        <h3>Лонгслив</h3>
+        <p class="price">3 200 руб.</p>
+        <p>Лонгслив оверсайз с принтом.</p>
+        <button>В корзину</button>
+      </div>
+      <div class="card__12">
+        <img src="https://img.ostin.com/upload/mdm/media_content/resize/de3/332_460_6f5a/135529050299.jpg" alt="Шуба">
+        <h3>Шуба</h3>
+        <p class="price">6 800 руб.</p>
+        <p>Шуба из искусственного меха.</p>
+        <button>В корзину</button>
+      </div>
+      <div class="card__13">
+        <img src="https://img.ostin.com/upload/mdm/media_content/resize/dd8/332_460_87a3/139476980299.jpg" alt="Куртка">
+        <h3>Куртка</h3>
+        <p class="price">8 000 руб.</p>
+        <p>Утеплённая короткая куртка с воротником.</p>
+        <button>В корзину</button>
+      </div>
+      <div class="card__14">
+        <img src="https://img.ostin.com/upload/mdm/media_content/resize/1b3/686_950_5533/135036540299.jpg" alt="Куртка">
+        <h3>Куртка</h3>
+        <p class="price">5 000 руб.</p>
+        <p>Утеплённая стёганая куртка с капюшоном.</p>
+        <button>В корзину</button>
+      </div>
+      <div class="card__15">
+        <img src="https://img.ostin.com/upload/mdm/media_content/resize/8a3/686_950_6618/142430830299.jpg" alt="Блузка">
+        <h3>Блузка</h3>
+        <p class="price">3 000 руб.</p>
+        <p>Сатиновая блузка белая в полоску.</p>
+        <button>В корзину</button>
+      </div>
+      <div class="card__16">
+        <img src="https://img.ostin.com/upload/mdm/media_content/resize/fbe/686_950_03c7/144495900299.jpg" alt="Блузка">
+        <h3>Блузка</h3>
+        <p class="price">3 000 руб.</p>
+        <p>Сатиновая блузка глубоко черного цвета.</p>
+        <button>В корзину</button>
+      </div>
+      <div class="card__17">
+        <img src="https://img.ostin.com/upload/mdm/media_content/resize/656/686_950_de3c/135983360299.jpg" alt="Перчатки">
+        <h3>Перчатки</h3>
+        <p class="price">800 руб.</p>
+        <p>Вязаные перчатки серого цвета.</p>
+        <button>В корзину</button>
+      </div>
+      <div class="card__18">
+        <img src="https://img.ostin.com/upload/mdm/media_content/resize/a20/332_460_21f4/133196000299.jpg" alt="Варежки">
+        <h3>Варежки</h3>
+        <p class="price">650 руб.</p>
+        <p>Варежки из искусственного меха.</p>
+        <button>В корзину</button>
+      </div>
+</div>
+</body>
+</html>

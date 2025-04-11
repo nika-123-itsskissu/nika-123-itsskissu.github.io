@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Личный кабинет</title>
+<style>
+.nav {
+position: relative;
+left: 0;
+right: 0;
+height: 50px;
+z-index: 999;
+top: 20px;
+
+}
+.nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: right;
+}
+.nav li {
+display: inline-block;
+}
+.nav a {
+display: block;
+font-family: 'Lato', sans-serif;
+font-size: 1.1em;
+text-transform: uppercase;
+padding: 0.5em 1em;
+color: #444;
+text-decoration: none;
+-webkit-transition: 0.9s;
+-moz-transition: 0.9s;
+-o-transition: 0.9s;
+transition: 0.9s;
+}
+.nav li.active a {
+color: #444;
+}
+.nav a:hover {
+color: #fff;
+background: #d0a5a5;
+}
+* {
+padding: 0;
+margin: 0;
+}
+input{
+    width: 20%;
+  height: 40px;
+  resize: none;
+}
+body {
+  background: linear-gradient(90deg, #c67c95,#e0c2ce,#e5c7da);
+}
+.lk{
+    text-align: center;
+    font-family: 'Roboto';
+    color: #626161;
+}
+.lk button {
+  background: linear-gradient(to bottom right, #e385b6, #ff5aaf);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.lk button:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(224, 100, 201, 0.5), .125rem .125rem 1rem rgba(225, 97, 127, 0.5);
+}
+
+.lk button:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(219, 47, 138, 0.5), .125rem .125rem 1rem rgba(210, 26, 124, 0.5);
+}
+</style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+         <li><a href="http://127.0.0.1:8000/sitehome_1/">Назад</a></li>
+        </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+    <div class="lk">
+        <h1>Регистрация</h1>
+        <br>
+        <p>Фамилия</p>
+        <input type="text" placeholder="Введите фамилию..." maxlength="30" name="user_name" id="user_name"><br><br>
+        <p>Имя</p>
+        <input type="text" placeholder="Введите имя..." maxlength="30" name="user_name" id="user_name"><br><br>
+        <p>Телефон</p>
+        <input type="text" placeholder="Введите телефон..." maxlength="30" name="user_name" id="user_name"><br><br>
+        <button type="submit">Готово</button><br><br>
+    </div>
+</body>
+</html>

@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Gruppo&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Gruppo&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Gruppo&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Gruppo&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Gruppo&family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=M+PLUS+Rounded+1c&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>интернет-магазин Adeliya</title>
+</head>
+<style>
+body {
+  background: linear-gradient(90deg, #c67c95,#e0c2ce,#e5c7da);
+}
+.wrap {
+  margin: 0 auto;
+  width: 70%;
+}
+.header{
+  padding: 1.3em 0em;
+}
+.logo{
+  position: relative;
+  float: left;
+  margin-right: 2em;
+}
+.logo a {
+  display: block;
+}
+.nav {
+  float: right;
+  margin-top: 0.82em;
+  margin-bottom: 1em;
+}
+.nav > ul > li {
+  display:inline-block;
+}
+.nav > ul > li.active a{
+  /*background: #d0a5a5;*/
+  color: #444;
+}
+.nav > ul > li > a {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+  color: #444;
+  -webkit-transition: 0.9s;
+  -moz-transition: 0.9s;
+  -o-transition: 0.9s;
+  transition: 0.9s;
+  text-decoration: none;
+}
+.nav > ul > li > a:hover {
+  color: #fff;
+  background: #d0a5a5;
+}
+.shop_roz{
+  background-size: 100% 130%;
+  box-shadow: 0px 0px 15px 15px #00000074;
+}
+.ad_text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.844);
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  font-family: 'Cinzel';
+}
+.ad_text {
+    font-size: 4rem;
+}
+.neon h3 {
+    margin: 1rem auto;
+    animation: neon 1s ease infinite;
+}
+@keyframes neon {
+    0%,
+    100% {
+        text-shadow: 0 0 10px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 2px #fed128, 2px 2px 2px #806914;
+        color: #f5efcb;
+    }
+    50% {
+        text-shadow: 0 0 2px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #40340a;
+        color: #eda0d3;
+    }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  max-width: none;
+  height: 700px;
+}
+  
+.carousel-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 50;
+}
+  
+.slideshow {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+  
+.slideshow-wrapper {
+  display: flex;
+  width: 400%; 
+  height: 100%;
+  position: relative;
+  left: 0;
+  animation: slideshow 17s infinite;
+}
+  
+.slide {
+  width: 100%;
+  height: 100%;
+}
+  
+.slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(40%)
+}
+  
+@keyframes slideshow {
+  0%, 10% { left: 0; }
+  15%, 25% { left: -100%; }
+  30%, 40% { left: -200%; }
+  45%, 55% { left: -300%; }
+  60%, 70% { left: -200%; }
+  75%, 85% { left: -100%; }
+  90%, 100% { left: 0; }
+}
+  
+.slide-btn {
+  background-color: #bbb;
+  border-radius: 50%;
+  border: .2rem solid #ffffff;
+  width: 1.2rem;
+  height: 1.2rem;
+  cursor: pointer;
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 70;
+}
+  
+.slide-btn-1 { left: 45%; }
+.slide-btn-2 { left: 50%; }
+.slide-btn-3 { left: 55%; }
+.slide-btn-4 { left: 60%; }
+  
+.slide-btn-1:focus ~ .slideshow-wrapper { animation: none; left: 0; }
+.slide-btn-2:focus ~ .slideshow-wrapper { animation: none; left: -100%; }
+.slide-btn-3:focus ~ .slideshow-wrapper { animation: none; left: -200%; }
+.slide-btn-4:focus ~ .slideshow-wrapper { animation: none; left: -300%; }
+  
+.slide-btn:focus {
+  background-color: #f6b5ee;
+}
+.about{
+  color: #575151;
+  text-align: center;
+  padding: 3em 0em;
+  font-family: 'Rubik One', sans-serif;
+}
+.wrap_about{
+  width: 90%;
+  margin: 0 auto;
+}
+.grid_1 {
+position: relative;
+transition: transform 0.2s ease-in-out;
+cursor: pointer;
+}
+
+.grid_1:hover {
+transform: translateX(20px);
+}
+
+.grid_1:not(:hover) {
+transform: translateX(0);
+}
+.grid_2 {
+position: relative;
+transition: transform 0.3s ease-in-out;
+cursor: pointer;
+}
+
+.grid_2:hover {
+transform: translateX(20px);
+}
+
+.grid_2:not(:hover) {
+transform: translateX(0);
+}
+.grid_3 {
+position: relative;
+transition: transform 0.4s ease-in-out;
+cursor: pointer;
+}
+
+.grid_3:hover {
+transform: translateX(20px);
+}
+
+.grid_3:not(:hover) {
+transform: translateX(0);
+}
+.about h2{
+  font-size:3em;
+  padding-bottom: 1em; 
+  font-family: 'Great Vibes';
+  color: #444444cf;
+}
+.grid_1{
+  width: 30%;
+  float: left; 
+  background: linear-gradient(90deg, #e8c3d4,#e6e0e2,#d28aae);
+  margin: 0 1.5% 0 1.5%; 
+  border: 1px solid black;
+  min-height: 508px;
+  box-shadow: 0px 0px 15px 15px #00000042;
+  font-family: 'Montserrat';
+}
+.grid_2{
+  width: 30%;
+  float: left; 
+  background: linear-gradient(90deg, #e8c3d4,#e6e0e2,#d28aae);
+  margin: 0 1.5% 0 1.5%; 
+  border: 1px solid black;
+  min-height: 508px;
+  box-shadow: 0px 0px 15px 15px #00000042;
+  font-family: 'Montserrat';
+}
+.grid_3{
+  width: 30%;
+  float: left; 
+  background: linear-gradient(90deg, #e8c3d4,#e6e0e2,#d28aae);
+  margin: 0 1.5% 0 1.5%; 
+  border: 1px solid black;
+  min-height: 508px;
+  box-shadow: 0px 0px 15px 15px #00000042;
+  font-family: 'Montserrat';
+}
+.grid_1 h3{
+  color: #605555;
+  font-size: 1.4em;
+  margin-top: 15px;
+  font-family: 'Bad Script';
+}
+.grid_2 h3{
+  color: #605555;
+  font-size: 1.4em;
+  margin-top: 15px;
+  font-family: 'Bad Script';
+}
+.grid_3 h3{
+  color: #605555;
+  font-size: 1.4em;
+  margin-top: 15px;
+  font-family: 'Bad Script';
+}
+
+.grid_1 p {
+  color: #605555;
+  font-size: 1.02em;
+  text-align: left;
+  padding: 1em 1em 2em 1em;
+  line-height: 1.9em;
+}
+.grid_2 p {
+  color: #605555;
+  font-size: 1.02em;
+  text-align: left;
+  padding: 1em 1em 2em 1em;
+  line-height: 1.9em;
+}
+.grid_3 p {
+  color: #605555;
+  font-size: 1.02em;
+  text-align: left;
+  padding: 1em 1em 2em 1em;
+  line-height: 1.9em;
+}
+.clear{clear:both;}
+
+.shoto-to{
+  text-align: center;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.shoto-to:hover {
+  -webkit-transform: rotate(20deg);
+  transform: rotate(15deg); /* Градусы поворота*/
+}
+
+/* Общие стили */
+*, *:after, *:before { 
+	box-sizing: border-box; 
+}
+.clearfix:before, .clearfix:after { 
+	content: ''; 
+	display: table; 
+}
+.clearfix:after { 
+	clear: both; 
+}
+.hover-text-one {
+	overflow: hidden;
+	margin: 0;
+	width: 100%;
+	list-style: none;
+	text-align: left;
+}
+.hover-text-one figure {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+	background: #527c82;
+	text-align: center;
+	cursor: pointer;
+}
+.hover-text-one figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	opacity: 0.8;
+}
+.hover-text-one figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.hover-text-one figure figcaption::before,
+.hover-text-one figure figcaption::after {
+	pointer-events: none;
+}
+.hover-text-one figure figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.hover-text-one figure h3 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+.hover-text-one figure h3 span {
+	font-weight: 800;
+}
+.hover-text-one figure h3,
+.hover-text-one figure p {
+	margin: 0;
+}
+.hover-text-one figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+/* Эффект при наведении */
+figure.effect-text-three {
+	background: #527c82;
+}
+figure.effect-text-three img {
+	width: -webkit-calc(100% + 20px);
+	width: calc(100% + 20px);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	transform: scale(1.1);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+figure.effect-text-three:hover img {
+	opacity: 0.4;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-text-three figcaption {
+	text-align: left;
+}
+figure.effect-text-three h3 {
+	position: relative;
+	overflow: hidden;
+	padding: 0.5em 0;
+}
+figure.effect-text-three h3::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	content: '';
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+}
+figure.effect-text-three:hover h3::after {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-text-three p {
+	padding: 1em 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+}
+figure.effect-text-three:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.podval {
+background: #f4f4f4;
+padding: 20px;
+text-align: center;
+margin-top: 20px;
+font-family: 'Jost';
+}
+
+.podval h1 {
+color: #5a5858ec;
+font-size: 30px;
+margin-bottom: 10px;
+font-weight: bold;
+font-family:'Great Vibes';
+}
+
+.podval address {
+font-style: normal;
+color: #555;
+margin-bottom: 10px;
+}
+
+.podval img {
+display: block;
+margin: 10px auto;
+max-width: 100%;
+height: auto;
+border-radius: 8px;
+border: 2px solid rgba(0, 0, 0, 0.514);
+}
+
+.podval p {
+color: #777;
+margin-bottom: 5px;
+}
+
+.podval p:first-child {
+margin-bottom: 0;
+}
+
+.podval .pole {
+margin-top: 20px;
+}
+
+.podval .pole p {
+font-weight: bold;
+font-size: 25px;
+color: #333333cc;
+margin-bottom: 0;
+text-align: center;
+font-family:'Great Vibes';
+}
+
+.podval p {
+line-height: 1.5;
+}
+
+.podval p:not(:first-child) {
+margin-top: 5px; 
+}
+textarea {
+  width: 20%;
+  height: 40px;
+  resize: none;
+}
+.soo{
+  text-align: right;
+}
+/*.podval{
+  background-color: #ea7bab;
+  width: 100%;
+  color: #444;
+}
+.podval img{
+  padding-left: 20px;
+}
+.podval address{
+  padding-left: 20px;
+}
+.podval h1{
+  font-family:'Great Vibes';
+  padding-left: 20px;
+}
+.podval p{
+  padding-left: 20px;
+  margin:0;
+}
+textarea {
+  width: 20%;
+  height: 40px;
+  resize: none;
+}
+.soo{
+  background-color: #444;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.pole{
+  background-color: #66434f;
+  text-align: center;
+}*/
+/* CSS */
+.soo button {
+  background: linear-gradient(to bottom right, #e385b6, #ff5aaf);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.soo button:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(224, 100, 201, 0.5), .125rem .125rem 1rem rgba(225, 97, 127, 0.5);
+}
+
+.soo button:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(219, 47, 138, 0.5), .125rem .125rem 1rem rgba(210, 26, 124, 0.5);
+}
+/*.con{
+  display: block;
+  float:left;
+  margin: 3% 0 3% 1.5%;
+}
+.con:first-child{
+  margin-left:0;
+}
+.part_2_of_3 {
+  width: 66%;
+}
+.part_1_of_3 {
+  width: 32%;
+}
+.cont-form{
+  padding-bottom: 25px;
+}
+.cont-form div{
+  padding: 5px 0 15px;
+}
+.cont-form input[type="text"],.cont-form input[type="email"],.cont-form textarea{
+  width: 42%;
+  padding: 15px;
+  display: block;
+  outline: none;
+  background-color: #fff;
+  color: #888282;
+  font-size: 0.8em;
+  float:left;
+  margin-right: 2em;
+  font-family: inherit;
+  font-style: italic;
+  border: 2px solid #cacaca;
+}
+.cont-form input[type="email"]{
+  margin-right: 0em;
+}
+.cont-form textarea{
+  padding: 18px;
+  display: block;
+  width: 93%;
+  height:180px;
+  background-color: #fff;
+  outline: none;
+  color: #888282;
+  font-size: 0.8em;
+  font-style: italic;
+  border:2px solid #cacaca;
+  margin-bottom: 2em;
+}
+.cont-form input[type="submit"] {
+  font-family: Verdana, sans-serif;
+  font-size: 1em;
+  color:#fff;
+  padding: 0.7em 1.4em;
+  margin-right: 2%;
+  background-color: #a97b7b;
+  border:none;
+  display: block;
+  cursor: pointer;
+  outline: none;
+  text-transform: uppercase;
+  float: right;
+}
+.comp_add p {
+  font-size:0.8em;
+  color:#525252;
+  line-height: 1.8em;
+  margin-bottom: 2%;
+}
+.comp_add a{
+  font-size:1.1em;
+  color:#525252;
+  line-height: 1.8em;
+  margin-bottom: 2%;
+}
+.list2 li img{
+  margin-top: 4px;
+  float:left;
+}
+.list2 li .icon{
+  float:left;
+  padding-left: 1em;
+}*/
+</style>
+<body>
+  <!--Меню сайта(шапка)-->
+<header>
+  <div class="wrap">
+    <div class="header">
+      <div class="logo">
+        <a href="#"><img src="https://i.yapx.ru/Yf9J3.png" alt="тут должен быть логотип" width="350px" height="100px"/></a>
+      </div>
+      <div class="nav">
+          <ul>
+           <li><a href="http://127.0.0.1:8000/str_1/">Каталог</a></li>
+           <li class="active"><a href="http://127.0.0.1:8000/about_us/">О нас</a></li>
+           <li><a href="http://127.0.0.1:8000/stocks/">Акции</a></li>
+           <li><a href="http://127.0.0.1:8000/lk/">Личный кабинет</a></li>
+          </ul>
+      </div>
+      <div class="clear"></div>
+    </div>
+   </div>
+</header>
+<!--Тело сайта большая картинка-->
+<section class="shop_roz">
+  <div class="container">
+    <!--Слайд шоу-->
+    <div class="slideshow">
+      <button class="slide-btn slide-btn-1"></button>
+      <button class="slide-btn slide-btn-2"></button>
+      <button class="slide-btn slide-btn-3"></button>
+      <button class="slide-btn slide-btn-4"></button>
+        
+    <div class="slideshow-wrapper">
+      <div class="slide">
+        <img class="slide-img"
+        src="https://cdn.ekonika.ru/upload/landings/ekonika-premium-ss25/2.jpg" 
+        alt="Image 1">
+      </div>
+      <div class="slide">
+        <img class="slide-img"
+        src="https://cdn.ekonika.ru/upload/landings/ekonika-premium-ss25/12.jpg"
+        alt="Image 2">
+      </div>
+      <div class="slide">
+        <img class="slide-img"
+        src="https://cdn.ekonika.ru/upload/landings/ekonika-premium-ss25/13.jpg"
+        alt="Image 3">
+      </div>
+      <div class="slide">
+        <img class="slide-img"
+        src="https://cdn.ekonika.ru/upload/landings/ekonika-premium-ss25/16.jpg"
+        alt="Image 4">
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="ad_text">
+        <div class="neon">
+        <h3>Мода - твой стиль.</h3>
+      </div>
+      </div>
+  </div>
+</section>
+<!--Раздел о нашем качестве-->
+<section class="about">
+  <h2>Adeliya - сделано с любовью.</h2>
+  <div class="wrap_about">
+  <article class="grid_1">
+    <img src="https://i.yapx.ru/YgL0k.png" width="220px" height="228px">
+    <h3>Широкий ассортимент</h3>
+    <p>В нашем магазине вы найдёте одежду на любой вкус и для любых случаев: от повседневной до элегантной, от спортивной до деловой. Мы постоянно обновляем наш ассортимент, чтобы предложить вам последние тренды и классические модели, которые никогда не выходят из моды.</p>
+  </article>
+  <article class="grid_2">
+    <img  src="https://i.yapx.ru/Yf9f8.png" width="220px" height="228px">
+    <h3>Высокое качество и комфорт</h3>
+    <p>Мы уделяем особое внимание качеству нашей одежды. Мы работаем только с проверенными поставщиками и тщательно следим за каждым этапом производства. Наша одежда изготовлена из высококачественных материалов, которые обеспечивают комфорт и долговечность.</p>
+  </article>
+  <article class="grid_3">
+      <img src="https://i.yapx.ru/Yf9gY.png" width="220px" height="228px">
+      <h3>Доступные цены</h3>
+      <p>Мы стремимся сделать нашу одежду доступной для широкого круга покупателей. У нас вы найдёте выгодные предложения и регулярные скидки на популярные модели. Мы уверены, что вы сможете подобрать идеальный образ в рамках своего бюджета и порадовать себя нашими необычными образами.</p>
+  </article>
+  <div class="clear"></div>
+ </div>
+</section>
+<div class="shoto-to">
+  <img src="https://cdn.ekonika.ru/upload/iblock/3b5/sqf9ux41ulmvtr6i73cm5qjjc6vueyew/Portal-logo_white-6.png"/>
+</div>
+<!-- Первая картинка -->
+<div class="hover-text-one">
+  <figure class="effect-text-three">
+    <img src="https://cdn.ekonika.ru/upload/landings/ekonika-premium-ss25/5.jpg"/>
+      <figcaption>
+	<h3>Трендовая линия</h3>
+	<p>Смелые и стильные решения на каждый день</p>
+    </figcaption>			
+  </figure>
+</div>
+<!--подвал сайта-->
+<div class="podval">
+  <div class="soo">
+    <p>напишите нам!♡</p>
+    <form>
+      <textarea placeholder="Введите текст" maxlength="50"> 
+      </textarea><br><br>
+      <button type="submit">Готово</button><br><br>
+      <form>
+  </div>
+  <h1>adeliya - с любовью.</h1>
+  <address>Адрес - Ул.Большая Калитниковская 12</address>
+  <img src="https://i.yapx.ru/YgkrG.png" height="50px" width="70px" alt="метро"/>
+  <p>Москва-Товарная</p>
+  <p>Пролетарская</p>
+  <p>Римская</p>
+  <img src="https://i.yapx.ru/YZ4WM.png" height="250px" width="500px" alt="карта"/>
+  <p>Телефон - +7 916-678-12-58</p>
+  <p>Почта - adeliyashop@mail.ru</p>
+  <div class="pole">
+    <p>adeliya ♡</p>
+  </div>
+</div>
+</body>
+</html>
